@@ -7,8 +7,6 @@ spring:
     open-in-view: false
     hibernate:
       ddl-auto: validate
-  profiles:
-    active: prd
 springdoc:
     api-docs:
        enabled: true
