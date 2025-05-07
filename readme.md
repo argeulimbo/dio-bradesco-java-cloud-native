@@ -1,50 +1,12 @@
-# Bradesco Java Cloud Native
-[Java RESTful API] Publicando sua API REST na Nuvem Usando Spring Boot 3, Java 17 e Railway
+# Bradesco Java Cloud Native - Trabalhando com Ambiente Cloud na Azure
 
-## Diagrama de Classes
+[ Introdução a Computação em Nuvem ]
+Neste módulo inicial, introduz conceitos básicos sobre Cloud (nuvem), tais como:
+* Modelos de Nuvem: Privada, Pública e Híbrida.
+* Domínio de Objetivo: são conjuntos de metas e objetivos para um projeto de nuvem, estabelece sua atuação e o que se espera de resultado deste projeto, de forma resumida, é o planejamento do projeto.
+* CAPEX: refere-se ao investimento feito em infraestrutura física inicial com equipamentos para a gestão da nuvem, como hacks, servidor, refrigeração do ambiente, entre outros.
+* OPEX: refere-se ao custo operacional, onde em nuvem se dá de forma periódica e seu pagamento já é feito de forma imediata e previamente estabelecido os limites de sua estrutura.
 
-```mermaid
-classDiagram
-    class User {
-        +String name
-    }
-
-    class Account {
-        +String number
-        +String agency
-        +double balance
-        +double limit
-    }
-
-    class Feature {
-        +String icon
-        +String description
-    }
-
-    class Card {
-        +String number
-        +double limit
-    }
-
-    class News {
-        +String icon
-        +String description
-    }
-
-    User --> Account : has
-    User --> Card : has
-    User --> "0..*" Feature : has
-    User --> "0..*" News : has
-```
-
-
-### Criação do Projeto
- * Criação: Spring Initializr
- * Versionamento da API: GitHub
- * Abstração e Modelagem de Domínio: Figma, ChatGPT(Mermaid) e JPA
- * Implementação do Backend: Spring Boot e Java 17
- * Deploy e Monitoramento: RailWay (PostgreSQL e CI/CD da API)
-   
 ### Social Media
 * Instagram: https://www.instagram.com/argeu.souza
 * My GitHub: https://www.github.com/argeulimbo
